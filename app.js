@@ -17,9 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({
   extended: true
 }));
-app.use(fileUpload({
-  debug: false
-}));
+
 
 const db = require('./helpers/db.js');
 
